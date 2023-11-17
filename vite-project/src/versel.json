@@ -1,0 +1,28 @@
+{
+	"rewrites": [
+		{
+			"source": "/",
+			"destination": "/index.html"
+		},
+		{
+			"source": "/students",
+			"destination": "/students/index.html"
+		},
+		{
+			"source": "/students/:studentId",
+			"destination": "/students/:studentId/index.html"
+		},
+		{
+			"source": "/teachers",
+			"destination": "/teachers/index.html"
+		},
+		{
+			"source": "/teachers/:teacherId",
+			"destination": "/teachers/:teacherId/index.html"
+		},
+		{
+			"source": "/class",
+			"destination": "/class/index.html"
+		}
+	]
+}
