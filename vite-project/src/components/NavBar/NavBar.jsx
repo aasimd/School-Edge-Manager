@@ -1,14 +1,15 @@
 /** @format */
 
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { getActiveStyles } from "../../utils";
-
+import "./NavBar.css";
 const NavBar = () => {
+	const navigate = useNavigate();
 	return (
-		<div>
+		<div className="nav-bar">
 			<div>
-				<h2>School Edge</h2>
+				<h2 onClick={() => navigate("/")}>School Edge</h2>
 			</div>
 			<ul>
 				<li>

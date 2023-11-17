@@ -7,6 +7,15 @@ export const Root = () => {
 	return (
 		<div>
 			<header>
+				<div>
+					Source Code:{" "}
+					<a
+						href="https://github.com/aasimd/School-Edge-Manager"
+						target="_blank"
+					>
+						Github
+					</a>
+				</div>
 				<nav>
 					<NavBar />
 				</nav>
